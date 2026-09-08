@@ -5,7 +5,7 @@ library(purrr)
 library(tsutils)
 
 # Load and reshape data----
-data_dir <- "C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Post Hoc statistical tests"
+data_dir <- "Desktop/Covariate Forecasting/Post Hoc statistical tests"
 csv_files <- list.files(data_dir, pattern = "\\.csv$", full.names = TRUE)
 
 read_variable <- function(f){
