@@ -34,19 +34,19 @@ validation_errors <- function(train_df, p_optimal, size_optimal){
 }
 
 #loading in the data----
-Austria <- na.omit(read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Austria.xlsx")[,c('Year', 'gni')])
-Belgium <- na.omit(read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Belgium.xlsx")[,c('Year', 'gni')])
-Denmark<- na.omit(read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Denmark.xlsx")[,c('Year', 'gni')])
-Finland <- na.omit(read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Finland.xlsx")[,c('Year', 'gni')])
-France <- na.omit(read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/France.xlsx")[,c('Year', 'gni')])
-Germany <- na.omit(read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Germany.xlsx")[,c('Year', 'gni')])
-Ireland <- na.omit(read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Ireland.xlsx")[,c('Year', 'gni')])
-Italy <- na.omit(read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Italy.xlsx")[,c('Year', 'gni')])
-Luxembourg <- na.omit(read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Luxembourg.xlsx")[,c('Year', 'gni')])
-Netherlands <- na.omit(read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Netherlands.xlsx")[,c('Year', 'gni')])
-Portugal <- na.omit(read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Portugal.xlsx")[,c('Year', 'gni')])
-Spain <- na.omit(read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Spain.xlsx")[,c('Year', 'gni')])
-Sweden <- na.omit(read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Sweden.xlsx")[,c('Year', 'gni')])
+Austria <- na.omit(read_excel("Desktop/Covariate Forecasting/Country data/Austria.xlsx")[,c('Year', 'gni')])
+Belgium <- na.omit(read_excel("Desktop/Covariate Forecasting/Country data/Belgium.xlsx")[,c('Year', 'gni')])
+Denmark<- na.omit(read_excel("Desktop/Covariate Forecasting/Country data/Denmark.xlsx")[,c('Year', 'gni')])
+Finland <- na.omit(read_excel("Desktop/Covariate Forecasting/Country data/Finland.xlsx")[,c('Year', 'gni')])
+France <- na.omit(read_excel("Desktop/Covariate Forecasting/Country data/France.xlsx")[,c('Year', 'gni')])
+Germany <- na.omit(read_excel("Desktop/Covariate Forecasting/Country data/Germany.xlsx")[,c('Year', 'gni')])
+Ireland <- na.omit(read_excel("Desktop/Covariate Forecasting/Country data/Ireland.xlsx")[,c('Year', 'gni')])
+Italy <- na.omit(read_excel("Desktop/Covariate Forecasting/Country data/Italy.xlsx")[,c('Year', 'gni')])
+Luxembourg <- na.omit(read_excel("Desktop/Covariate Forecasting/Country data/Luxembourg.xlsx")[,c('Year', 'gni')])
+Netherlands <- na.omit(read_excel("Desktop/Covariate Forecasting/Country data/Netherlands.xlsx")[,c('Year', 'gni')])
+Portugal <- na.omit(read_excel("Desktop/Covariate Forecasting/Country data/Portugal.xlsx")[,c('Year', 'gni')])
+Spain <- na.omit(read_excel("Desktop/Covariate Forecasting/Country data/Spain.xlsx")[,c('Year', 'gni')])
+Sweden <- na.omit(read_excel("Desktop/Covariate Forecasting/Country data/Sweden.xlsx")[,c('Year', 'gni')])
 
 # Functions for PI diagnostics----
 coverage_prob <- function(y_test, pi_lo, pi_hi) {
