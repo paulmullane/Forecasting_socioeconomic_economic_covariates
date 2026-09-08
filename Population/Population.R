@@ -79,19 +79,19 @@ select_nnar <- function(train_series, p_grid=1:5, size_grid=1:5,
        val_frac=val_frac)
 }
 #reading in the data----
-Austria <- read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Austria.xlsx")[,c('Year', 'Population')]
-Belgium <- read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Belgium.xlsx")[,c('Year', 'Population')]
-Denmark<- read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Denmark.xlsx")[,c('Year', 'Population')]
-Finland <- read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Finland.xlsx")[,c('Year', 'Population')]
-France <- read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/France.xlsx")[,c('Year', 'Population')]
-Germany <- read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Germany.xlsx")[,c('Year', 'Population')]
-Ireland <- read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Ireland.xlsx")[,c('Year', 'Population')]
-Italy <- read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Italy.xlsx")[,c('Year', 'Population')]
-Luxembourg <- read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Luxembourg.xlsx")[,c('Year', 'Population')]
-Netherlands <- read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Netherlands.xlsx")[,c('Year', 'Population')]
-Portugal <- read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Portugal.xlsx")[,c('Year', 'Population')]
-Spain <- read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Spain.xlsx")[,c('Year', 'Population')]
-Sweden <- read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Sweden.xlsx")[,c('Year', 'Population')]
+Austria <- read_excel("Desktop/Covariate Forecasting/Country data/Austria.xlsx")[,c('Year', 'Population')]
+Belgium <- read_excel("Desktop/Covariate Forecasting/Country data/Belgium.xlsx")[,c('Year', 'Population')]
+Denmark<- read_excel("Desktop/Covariate Forecasting/Country data/Denmark.xlsx")[,c('Year', 'Population')]
+Finland <- read_excel("Desktop/Covariate Forecasting/Country data/Finland.xlsx")[,c('Year', 'Population')]
+France <- read_excel("Desktop/Covariate Forecasting/Country data/France.xlsx")[,c('Year', 'Population')]
+Germany <- read_excel("Desktop/Covariate Forecasting/Country data/Germany.xlsx")[,c('Year', 'Population')]
+Ireland <- read_excel("Desktop/Covariate Forecasting/Country data/Ireland.xlsx")[,c('Year', 'Population')]
+Italy <- read_excel("Desktop/Covariate Forecasting/Country data/Italy.xlsx")[,c('Year', 'Population')]
+Luxembourg <- read_excel("Desktop/Covariate Forecasting/Country data/Luxembourg.xlsx")[,c('Year', 'Population')]
+Netherlands <- read_excel("Desktop/Covariate Forecasting/Country data/Netherlands.xlsx")[,c('Year', 'Population')]
+Portugal <- read_excel("Desktop/Covariate Forecasting/Country data/Portugal.xlsx")[,c('Year', 'Population')]
+Spain <- read_excel("Desktop/Covariate Forecasting/Country data/Spain.xlsx")[,c('Year', 'Population')]
+Sweden <- read_excel("Desktop/Covariate Forecasting/Country data/Sweden.xlsx")[,c('Year', 'Population')]
 
 #Austria----
 #train/test split - 1960-2011/2012-2024
