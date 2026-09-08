@@ -79,19 +79,19 @@ select_nnar <- function(train_series, p_grid=1:5, size_grid=1:5,
        val_frac=val_frac)
 }
 #reading in the data----
-Austria <- read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Austria.xlsx")[,c('Year', 'age_dependency_ratio')]
-Belgium <- read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Belgium.xlsx")[,c('Year', 'age_dependency_ratio')]
-Denmark<- read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Denmark.xlsx")[,c('Year', 'age_dependency_ratio')]
-Finland <- read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Finland.xlsx")[,c('Year', 'age_dependency_ratio')]
-France <- read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/France.xlsx")[,c('Year', 'age_dependency_ratio')]
-Germany <- read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Germany.xlsx")[,c('Year', 'age_dependency_ratio')]
-Ireland <- read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Ireland.xlsx")[,c('Year', 'age_dependency_ratio')]
-Italy <- read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Italy.xlsx")[,c('Year', 'age_dependency_ratio')]
-Luxembourg <- read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Luxembourg.xlsx")[,c('Year', 'age_dependency_ratio')]
-Netherlands <- read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Netherlands.xlsx")[,c('Year', 'age_dependency_ratio')]
-Portugal <- read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Portugal.xlsx")[,c('Year', 'age_dependency_ratio')]
-Spain <- read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Spain.xlsx")[,c('Year', 'age_dependency_ratio')]
-Sweden <- read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Sweden.xlsx")[,c('Year', 'age_dependency_ratio')]
+Austria <- read_excel("Desktop/Covariate Forecasting/Country data/Austria.xlsx")[,c('Year', 'age_dependency_ratio')]
+Belgium <- read_excel("Desktop/Covariate Forecasting/Country data/Belgium.xlsx")[,c('Year', 'age_dependency_ratio')]
+Denmark<- read_excel("Desktop/Covariate Forecasting/Country data/Denmark.xlsx")[,c('Year', 'age_dependency_ratio')]
+Finland <- read_excel("Desktop/Covariate Forecasting/Country data/Finland.xlsx")[,c('Year', 'age_dependency_ratio')]
+France <- read_excel("Desktop/Covariate Forecasting/Country data/France.xlsx")[,c('Year', 'age_dependency_ratio')]
+Germany <- read_excel("Desktop/Covariate Forecasting/Country data/Germany.xlsx")[,c('Year', 'age_dependency_ratio')]
+Ireland <- read_excel("Desktop/Covariate Forecasting/Country data/Ireland.xlsx")[,c('Year', 'age_dependency_ratio')]
+Italy <- read_excel("Desktop/Covariate Forecasting/Country data/Italy.xlsx")[,c('Year', 'age_dependency_ratio')]
+Luxembourg <- read_excel("Desktop/Covariate Forecasting/Country data/Luxembourg.xlsx")[,c('Year', 'age_dependency_ratio')]
+Netherlands <- read_excel("Desktop/Covariate Forecasting/Country data/Netherlands.xlsx")[,c('Year', 'age_dependency_ratio')]
+Portugal <- read_excel("Desktop/Covariate Forecasting/Country data/Portugal.xlsx")[,c('Year', 'age_dependency_ratio')]
+Spain <- read_excel("Desktop/Covariate Forecasting/Country data/Spain.xlsx")[,c('Year', 'age_dependency_ratio')]
+Sweden <- read_excel("Desktop/Covariate Forecasting/Country data/Sweden.xlsx")[,c('Year', 'age_dependency_ratio')]
 
 #Austria----
 #train/test split - 1960-2011/2012-2024
