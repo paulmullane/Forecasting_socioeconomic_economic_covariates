@@ -80,19 +80,19 @@ select_nnar <- function(train_series, p_grid=1:5, size_grid=1:5,
 }
 
 #reading in the data----
-Austria <- na.omit(read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Austria.xlsx")[,c('Year', 'energy_consumption')])
-Belgium <- na.omit(read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Belgium.xlsx")[,c('Year', 'energy_consumption')])
-Denmark<- na.omit(read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Denmark.xlsx")[,c('Year', 'energy_consumption')])
-Finland <- na.omit(read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Finland.xlsx")[,c('Year', 'energy_consumption')])
-France <- na.omit(read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/France.xlsx")[,c('Year', 'energy_consumption')])
-Germany <- na.omit(read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Germany.xlsx")[,c('Year', 'energy_consumption')])
-Ireland <- na.omit(read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Ireland.xlsx")[,c('Year', 'energy_consumption')])
-Italy <- na.omit(read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Italy.xlsx")[,c('Year', 'energy_consumption')])
-Luxembourg <- na.omit(read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Luxembourg.xlsx")[,c('Year', 'energy_consumption')])
-Netherlands <- na.omit(read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Netherlands.xlsx")[,c('Year', 'energy_consumption')])
-Portugal <- na.omit(read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Portugal.xlsx")[,c('Year', 'energy_consumption')])
-Spain <- na.omit(read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Spain.xlsx")[,c('Year', 'energy_consumption')])
-Sweden <- na.omit(read_excel("C:/Users/20229798/OneDrive - University of Limerick/Desktop/Covariate Forecasting/Country data/Sweden.xlsx")[,c('Year', 'energy_consumption')])
+Austria <- na.omit(read_excel("Desktop/Covariate Forecasting/Country data/Austria.xlsx")[,c('Year', 'energy_consumption')])
+Belgium <- na.omit(read_excel("Desktop/Covariate Forecasting/Country data/Belgium.xlsx")[,c('Year', 'energy_consumption')])
+Denmark<- na.omit(read_excel("Desktop/Covariate Forecasting/Country data/Denmark.xlsx")[,c('Year', 'energy_consumption')])
+Finland <- na.omit(read_excel("Desktop/Covariate Forecasting/Country data/Finland.xlsx")[,c('Year', 'energy_consumption')])
+France <- na.omit(read_excel("Desktop/Covariate Forecasting/Country data/France.xlsx")[,c('Year', 'energy_consumption')])
+Germany <- na.omit(read_excel("Desktop/Covariate Forecasting/Country data/Germany.xlsx")[,c('Year', 'energy_consumption')])
+Ireland <- na.omit(read_excel("Desktop/Covariate Forecasting/Country data/Ireland.xlsx")[,c('Year', 'energy_consumption')])
+Italy <- na.omit(read_excel("Desktop/Covariate Forecasting/Country data/Italy.xlsx")[,c('Year', 'energy_consumption')])
+Luxembourg <- na.omit(read_excel("Desktop/Covariate Forecasting/Country data/Luxembourg.xlsx")[,c('Year', 'energy_consumption')])
+Netherlands <- na.omit(read_excel("Desktop/Covariate Forecasting/Country data/Netherlands.xlsx")[,c('Year', 'energy_consumption')])
+Portugal <- na.omit(read_excel("Desktop/Covariate Forecasting/Country data/Portugal.xlsx")[,c('Year', 'energy_consumption')])
+Spain <- na.omit(read_excel("Desktop/Covariate Forecasting/Country data/Spain.xlsx")[,c('Year', 'energy_consumption')])
+Sweden <- na.omit(read_excel("Desktop/Covariate Forecasting/Country data/Sweden.xlsx")[,c('Year', 'energy_consumption')])
 
 #Austria----
 #train/test split - 1960-2011/2012-2024
